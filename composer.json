@@ -2,6 +2,17 @@
 	"name": "afi/mongo",
 	"description": "Mongo ODM",
 
+	"keywords": ["mongodb","ODM"],
+	"homepage": "https://github.com/solo-framework/php-mongo-odm",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andrey Filippov",
+			"email": "afi.work@gmail.com",
+			"role": "Maintainer"
+		}
+	],
+
 	"require": {
 		"php": ">=7.2",
 		"mongodb/mongodb": "^1.4",
