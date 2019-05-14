@@ -1,0 +1,17 @@
+{
+	"name": "afi/mongo",
+	"description": "Mongo ODM",
+
+	"require": {
+		"php": ">=7.2",
+		"mongodb/mongodb": "^1.4",
+		"ext-mongodb": "^1.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.7.27 || ^6.0 || ^7.0"
+	},
+
+	"autoload": {
+		"psr-4": { "RuntimeLLC\\Mongo\\": "src/" }
+	}
+}
